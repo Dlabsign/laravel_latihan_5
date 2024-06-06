@@ -4,7 +4,7 @@ use App\Http\Controllers\MahasiswaController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('email.isi_email');
 });
 
 Route::get('/adminIndex', [MahasiswaController::class, 'adminIndex']);
